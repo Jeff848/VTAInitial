@@ -1,0 +1,11 @@
+<project default="build-jar">
+    <target name="build-jar">
+        <jar destfile="test.jar">
+            <fileset dir="classes"/>
+            <fileset dir="lib" />
+            <manifest>
+				<attribute name="Main-Class" value="Main"/>
+            </manifest> 
+        </jar>
+    </target>
+</project>
