@@ -1,0 +1,2 @@
+javac -cp ".;./wala/com.ibm.wala.util-1.5.7.jar;./wala/com.ibm.wala.shrike-1.5.7.jar;./wala/com.ibm.wala.core-1.5.7.jar" StarterCode.java
+java -cp ".;./wala/com.ibm.wala.util-1.5.7.jar;./wala/com.ibm.wala.shrike-1.5.7.jar;./wala/com.ibm.wala.core-1.5.7.jar" StarterCode -jarfile example/test.jar
